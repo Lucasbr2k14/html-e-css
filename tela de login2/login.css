@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.andro-life.com%2Fwp-content%2Fuploads%2F2017%2F08%2FWallpaper-1.jpg%3Fssl%3D1&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #164A57;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    border:0px;
+    border-bottom: 2px solid #164A57;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0px;
+}
+
+.label-float{
+    position: relative;
+    padding-top:13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    width: 100%;
+    padding: 5px 5px;
+    border:0px;
+    border-bottom: 2px solid #27ACCD;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0px;
+}
+
+.label-float label{
+    color: #164A57;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #27ACCD;
+}
+
+button{
+    background-color: transparent;
+    border-color:#164A57;
+    padding: 7px;
+    font-weight:7px;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    color: #164A57;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    color: white;
+    background-color: #164A57;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center ;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p{
+    color: #164A57;
+    font-size: 16px;
+}
+
+a{
+    color:#2A8C99;
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+
+a:hover{
+    color: #9da794;
+}
